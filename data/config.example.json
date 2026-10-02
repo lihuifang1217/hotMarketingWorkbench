@@ -1,0 +1,231 @@
+{
+  "mode": "mock",
+  "baseUrl": "https://api.deepseek.com",
+  "model": "deepseek-flash",
+  "temperature": 0.85,
+  "products": [
+    {
+      "id": "p1",
+      "name": "冰丝凉感防晒衣",
+      "category": "穿搭",
+      "price": 129,
+      "emoji": "🧥",
+      "color": "#dbeafe",
+      "tags": [
+        "冰丝",
+        "凉感",
+        "防晒",
+        "轻薄",
+        "夏日",
+        "高温",
+        "户外"
+      ],
+      "selling": "接触瞬间清凉，轻薄透气，通勤与出游都能穿",
+      "image": "assets/products/p1.svg",
+      "url": "product.html?id=p1"
+    },
+    {
+      "id": "p2",
+      "name": "随行冰感保温杯",
+      "category": "生活",
+      "price": 89,
+      "emoji": "🧊",
+      "color": "#dcfce7",
+      "tags": [
+        "冰饮",
+        "降温",
+        "便携",
+        "高温",
+        "消暑"
+      ],
+      "selling": "长效保冷，随时喝一口冰爽",
+      "image": "assets/products/p2.svg",
+      "url": "product.html?id=p2"
+    },
+    {
+      "id": "p3",
+      "name": "轻量速干运动鞋",
+      "category": "运动",
+      "price": 269,
+      "emoji": "👟",
+      "color": "#ede9fe",
+      "tags": [
+        "运动",
+        "跑步",
+        "夜跑",
+        "健身",
+        "速干",
+        "透气"
+      ],
+      "selling": "轻量缓震，城市慢跑也自在",
+      "image": "assets/products/p3.svg",
+      "url": "product.html?id=p3"
+    },
+    {
+      "id": "p4",
+      "name": "折叠露营月亮椅",
+      "category": "户外",
+      "price": 199,
+      "emoji": "🏕️",
+      "color": "#fef3c7",
+      "tags": [
+        "露营",
+        "户外",
+        "野餐",
+        "便携",
+        "旅行"
+      ],
+      "selling": "一折即走，久坐舒适的户外休憩位",
+      "image": "assets/products/p4.svg",
+      "url": "product.html?id=p4"
+    },
+    {
+      "id": "p5",
+      "name": "新中式纹样帆布包",
+      "category": "文创",
+      "price": 79,
+      "emoji": "👜",
+      "color": "#fee2e2",
+      "tags": [
+        "国风",
+        "文创",
+        "非遗",
+        "传统",
+        "穿搭",
+        "颜值"
+      ],
+      "selling": "传统纹样融入日常穿搭，轻巧又能装",
+      "image": "assets/products/p5.svg",
+      "url": "product.html?id=p5"
+    },
+    {
+      "id": "p6",
+      "name": "儿童护眼阅读台灯",
+      "category": "亲子",
+      "price": 159,
+      "emoji": "💡",
+      "color": "#e0f2fe",
+      "tags": [
+        "学生",
+        "开学",
+        "学习",
+        "亲子",
+        "儿童",
+        "护眼"
+      ],
+      "selling": "柔和照明，陪孩子安心阅读",
+      "image": "assets/products/p6.svg",
+      "url": "product.html?id=p6"
+    },
+    {
+      "id": "p7",
+      "name": "便携手持小风扇",
+      "category": "生活",
+      "price": 49,
+      "emoji": "🪭",
+      "color": "#fce7f3",
+      "tags": [
+        "高温",
+        "降温",
+        "消暑",
+        "便携",
+        "夏日"
+      ],
+      "selling": "随手带走的小凉风，通勤排队都适用",
+      "image": "assets/products/p7.svg",
+      "url": "product.html?id=p7"
+    },
+    {
+      "id": "p8",
+      "name": "瑜伽训练弹力带",
+      "category": "运动",
+      "price": 39,
+      "emoji": "🏋️",
+      "color": "#e7f5e9",
+      "tags": [
+        "健身",
+        "运动",
+        "瑜伽",
+        "训练"
+      ],
+      "selling": "多档阻力，在家也能轻松开练",
+      "image": "assets/products/p8.svg",
+      "url": "product.html?id=p8"
+    },
+    {
+      "id": "p9",
+      "name": "轻羽防滑羽毛球鞋",
+      "category": "运动",
+      "price": 239,
+      "emoji": "🏸",
+      "color": "#e7f3ff",
+      "tags": [
+        "羽毛球",
+        "防滑",
+        "运动",
+        "透气",
+        "训练"
+      ],
+      "selling": "球场防滑抓地，轻盈启动更从容",
+      "image": "assets/products/p9.svg",
+      "url": "product.html?id=p9"
+    }
+  ],
+  "sources": [
+    "baidu",
+    "weibo",
+    "zhihu",
+    "ithome"
+  ],
+  "rssFeeds": [],
+  "tokenPricing": {
+    "inputPerMillion": 1,
+    "outputPerMillion": 2,
+    "totalPerMillion": 1.5
+  },
+  "apiKey": "",
+  "autoThreshold": 5000000,
+  "promptTemplates": {
+    "system": "你是资深电商媒体微博编辑。只输出最终微博正文，不要输出思考过程、分析、标题或 Markdown。不得借灾难、疫情、战争、犯罪或政治事件营销。必须使用素材指定的话题标签，最多三个；至少提到一件绑定商品，结尾向读者提问或邀请评论。正文须在 140 到 180 字之间；写完自己数一遍，超了就删，宁可少写一个卖点也不能超。金额只能原样使用素材里给出的数字；素材没给的价格、折扣、销量、库存一律不许出现。不得使用广告法违禁词，不得虚构功效。以下是合规句式范例，162 字；实际生成时必须换成当前素材：#多地持续高温清凉穿搭与防晒用品搜# 高温通勤想轻松一点？✨ 冰丝凉感防晒衣，轻薄透气，接触瞬间清凉，通勤与出游都能穿。选夏日衣服时，可以先想想自己最常遇到的使用场景，再看看这些卖点是否贴合需求。每天出门怎么搭、周末出游带什么，各人都有自己的习惯，把实际需要放在前面，分享适合自己的生活选择。你最在意哪一个卖点？评论区聊聊👇 当前表达语调：{{语调}}。",
+    "user": "热点标题：{{热点标题}}\n热点摘要：{{热点摘要}}\n话题标签：{{话题标签}}\n表达语调：{{语调}}\n商品清单：\n{{商品清单}}\n请围绕热点与商品的真实关联写一条微博文案。",
+    "product": "{{商品序号}}. {{商品名称}}（¥{{商品价格}}）：{{商品卖点}}"
+  },
+  "creativeStyles": [
+    {
+      "id": "hotspot",
+      "name": "热点借势",
+      "instruction": "先接住热点情绪，再自然过渡到商品，突出真实使用体验。"
+    },
+    {
+      "id": "promotion",
+      "name": "促销导向",
+      "instruction": "突出已提供的价格与购买理由，强调转化，但不得虚构优惠、库存或紧迫感。"
+    },
+    {
+      "id": "interaction",
+      "name": "互动话题",
+      "instruction": "围绕热点提出具体问题，邀请评论互动，商品植入自然。"
+    }
+  ],
+  "tonePresets": [
+    "活力种草",
+    "理性推荐",
+    "轻松互动"
+  ],
+  "provider": "deepseek",
+  "stream": true,
+  "evaluation": {
+    "minLength": 140,
+    "maxLength": 180,
+    "maxTags": 3,
+    "minEmoji": 0,
+    "maxEmoji": 3,
+    "machineWeight": 50,
+    "reviewWeight": 50,
+    "maxRepairRounds": 2,
+    "repairTemperature": 0.2,
+    "reviewTemperature": 0.1,
+    "reviewPrompt": "你是资深的电商内容评审专家,负责为「热点借势微博营销文案」打分。\n\n请阅读给定的热点新闻、商品资料与待评文案,从以下 4 个维度各打 1~5 分(整数,5 分最好):\n\n- relevance 热点关联度:是否真正借势该热点,而不是生硬贴一个标签。\n- coverage 卖点与价格覆盖准确度:是否准确使用了商品卖点与给定价格,有无编造功效、销量或数字。\n- appeal 传播吸引力:钩子、节奏与互动设计是否能带来点击、评论与转发。\n- tone 语气自然度:是否像真人运营在发微博,而不是 AI 腔或企业公告腔。\n\n输出要求:\n\n1. 只输出一个 JSON 对象,不要任何解释文字,不要 markdown 代码块。\n2. 严格使用如下格式(comment 为一句话点评,不超过 40 字):\n   {\"relevance\":4,\"coverage\":5,\"appeal\":4,\"tone\":5,\"comment\":\"点评\"}。",
+    "repairPrompt": "你刚才写的这条微博文案没有通过发布前的合规校验,请针对下面列出的问题逐条修正后重新输出。\n\n【原文案】\n\n{{copy}}\n\n【未通过的检查项】\n\n{{failures}}\n\n【可用素材】(价格只能使用这里出现的数字)\n\n{{products}}\n\n【必须包含的话题标签】{{topics}}\n\n修正要求:\n\n1. 只修问题,尽量保留原文的语气、结构与卖点表达,不要重写成另一篇。\n\n2. 修完后必须同时满足:全文 {{minLength}}~{{maxLength}} 字、价格与素材完全一致、无绝对化用语、话题标签 1~3 个且包含给定话题、结尾有互动引导。\n\n3. 如果是超字数,优先删掉重复的形容词与次要卖点,不要删掉话题标签和互动引导。\n\n4. 只输出修正后的文案正文纯文本,不要解释、不要说明改了什么。"
+  }
+}

@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>热点营销工作台</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="shell">
+  <header class="topbar"><div class="brand"><div class="brand-mark">热</div><div><strong>热点营销工作台</strong><small>HOTSPOT COMMERCE STUDIO</small></div></div><div class="workflow-switch" role="group" aria-label="工作模式"><button id="manualMode" class="mode-button active" type="button">手工模式</button><button id="autoMode" class="mode-button" type="button">自动模式 <span id="autoAlertCount" class="mode-count" hidden></span></button></div><div class="top-actions"><span class="status-dot"></span><span id="connection">正在连接</span><a class="settings-button settings-link" href="admin.html">后台</a><button class="settings-button" id="settingsOpen" type="button">设置</button><div class="account"><span class="avatar">运</span><span><strong>运营演示账号</strong><small>已登录 · 本地工作区</small></span></div></div></header>
+  <div class="body-grid"><aside class="sidebar"><div class="sidebar-head"><span>营销流水线</span><span class="side-count">01 — 05</span></div><div id="steps"></div><div class="side-bottom"><div class="side-help">✦ <strong>工作提示</strong><p>切换热点将重置商品与文案；调整商品将使当前文案失效。</p></div><button class="side-history" id="historyOpen">◷　查看操作流水 <span>↗</span></button></div></aside>
+  <main class="main"><div class="workspace-top"><div><div class="eyebrow">WORKSPACE / 工作区</div><h1 id="pageTitle">新闻抓取</h1><p id="pageDesc"></p></div><div class="workspace-meta"><span class="pill" id="dataSource">内置演示数据</span><span id="clock"></span></div></div><div id="breadcrumb" class="breadcrumb"></div><div id="workspace"></div></main></div>
+</div>
+<div id="toast" class="toast" role="status"></div>
+<div id="modalRoot"></div>
+<script src="src/data.js"></script><script src="src/catalog.js"></script><script src="src/matching.js"></script><script src="src/dedupe.js"></script><script src="src/prompts.js"></script><script src="src/llm.js"></script><script src="src/evaluation.js"></script><script src="src/auto.js"></script><script src="src/app.js"></script>
+</body></html>
